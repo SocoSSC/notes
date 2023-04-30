@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--@Create 2023-02-02 16:32:01-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring注解驱动开发</title>
+    <link rel="shortcut icon" href="assert/favicon.ico"/>
+    <link rel="stylesheet" href="assert/element-ui/index.css"/>
+    <link rel="stylesheet" href="assert/freemind.css"/>
+    <script type="text/javascript" src="assert/jquery-1.7.2.js"></script>
+    <script type="text/javascript"> const initTop = -31126; </script>
+    <script type="text/javascript" src="assert/freemind_big.js"></script>
+</head>
+<body>
+    <div id="background1"></div>
+    <div id="background2"></div>
+    <div id="viewer">
+        <div id="image">
+            <img src="../03JavaEE/0310-Spring注解驱动开发_p01.png">
+            <img src="../03JavaEE/0310-Spring注解驱动开发_p02.png">
+            <img src="../03JavaEE/0310-Spring注解驱动开发_p03.png">
+            <img src="../03JavaEE/0310-Spring注解驱动开发_p04.png">
+            <img src="../03JavaEE/0310-Spring注解驱动开发_p05.png">
+            <img src="../03JavaEE/0310-Spring注解驱动开发_p06.png">
+            <img src="../03JavaEE/0310-Spring注解驱动开发_p07.png">
+            <img src="../03JavaEE/0310-Spring注解驱动开发_p08.png">
+            <img src="../03JavaEE/0310-Spring注解驱动开发_p09.png">
+            <img src="../03JavaEE/0310-Spring注解驱动开发_p10.png">
+            <img src="../03JavaEE/0310-Spring注解驱动开发_p11.png">
+            <img src="../03JavaEE/0310-Spring注解驱动开发_p12.png">
+            <img src="../03JavaEE/0310-Spring注解驱动开发_p13.png">
+            <img src="../03JavaEE/0310-Spring注解驱动开发_p14.png">
+            <img src="../03JavaEE/0310-Spring注解驱动开发_p15.png">
+            <img src="../03JavaEE/0310-Spring注解驱动开发_p16.png">
+        </div>
+    </div>
+    <div id="scBarX"></div>
+    <div id="scBarY"></div>
+    <div id="displayInfo">
+        <i class="el-icon-search"></i><span id="scale">100%</span><i class="blank"></i>
+        <i class="el-icon-sunny"></i><span id="brightness">100%</span><i class="blank"></i>
+        <i class="el-icon-sunrise"></i><span id="contrast">100%</span><i class="blank"></i>
+        <i class="el-icon-picture-outline"></i><span id="bgOpacity">50%</span>
+    </div>
+    <div id="noteList" class="el-icon-notebook-1"></div>
+    <div id="modal_bg">
+        <div id="modal">
+            <div id="modalWrapper">
+                <div id="modal_title">
+                    <i id="modal_close"><i class="el-icon-close"></i></i>
+                    <span><img src="assert/note.png" style="opacity: 0.8"/></span>
+                </div>
+                <div id="modal_body">
+                    <span class="noteClass" id="javaBasicSpan">
+                        <div id="javaBasic">Java基础</div>
+                        <div class="noteContent">
+                            <a href="0101-JavaBasic.html"><i class="el-icon-takeaway-box"></i><span class="noteName">JavaBasic</span></a>
+                            <a href="0102-MySQL基础.html"><i class="el-icon-takeaway-box"></i><span class="noteName">MySQL基础</span></a>
+                            <a href="0103-Oracle数据库.html"><i class="el-icon-takeaway-box"></i><span class="noteName">Oracle数据库</span></a>
+                            <a href="0104-JDBC.html"><i class="el-icon-takeaway-box"></i><span class="noteName">JDBC</span></a>
+                            <a href="0105-Linux.html"><i class="el-icon-takeaway-box"></i><span class="noteName">Linux</span></a>
+                            <a href="0106-数据结构和算法.html"><i class="el-icon-takeaway-box"></i><span class="noteName">数据结构和算法</span></a>
+                            <a href="0107-设计模式.html"><i class="el-icon-takeaway-box"></i><span class="noteName">设计模式</span></a>
+                        </div>
+                    </span>
+                    <span class="noteClass" id="webSpan">
+                        <div id="web">Web基础</div>
+                        <div class="noteContent">
+                            <a href="0201-HtmlCSS.html"><i class="el-icon-cloudy"></i><span class="noteName">HtmlCSS</span></a>
+                            <a href="0202-JavascriptDOM.html"><i class="el-icon-cloudy"></i><span class="noteName">JavascriptDOM</span></a>
+                            <a href="0203-XML&Tomcat.html"><i class="el-icon-cloudy"></i><span class="noteName">XML&Tomcat</span></a>
+                            <a href="0204-Servlet.html"><i class="el-icon-cloudy"></i><span class="noteName">Servlet</span></a>
+                            <a href="0205-Jsp.html"><i class="el-icon-cloudy"></i><span class="noteName">Jsp</span></a>
+                            <a href="0206-EL表达式&JSTL标签库.html"><i class="el-icon-cloudy"></i><span class="noteName">EL表达式&JSTL标签库</span></a>
+                            <a href="0207-Cookie和Session.html"><i class="el-icon-cloudy"></i><span class="noteName">Cookie和Session</span></a>
+                            <a href="0208-Filter过滤器.html"><i class="el-icon-cloudy"></i><span class="noteName">Filter过滤器</span></a>
+                            <a href="0209-Ajax&i18n国际化.html"><i class="el-icon-cloudy"></i><span class="noteName">Ajax&i18n国际化</span></a>
+                        </div>
+                    </span>
+                    <span class="noteClass" id="javaEESpan">
+                        <div id="javaEE">JavaEE</div>
+                        <div class="noteContent">
+                            <a href="0301-Spring5.html"><i class="el-icon-s-management"></i><span class="noteName">Spring5</span></a>
+                            <a href="0302-SpringMVC.html"><i class="el-icon-s-management"></i><span class="noteName">SpringMVC</span></a>
+                            <a href="0303-Maven.html"><i class="el-icon-s-management"></i><span class="noteName">Maven</span></a>
+                            <a href="0304-Hibernate.html"><i class="el-icon-s-management"></i><span class="noteName">Hibernate</span></a>
+                            <a href="0305-MyBatis.html"><i class="el-icon-s-management"></i><span class="noteName">MyBatis</span></a>
+                            <a href="0306-MyBatisPlus.html"><i class="el-icon-s-management"></i><span class="noteName">MyBatisPlus</span></a>
+                            <a href="0307-SpringBoot.html"><i class="el-icon-s-management"></i><span class="noteName">SpringBoot</span></a>
+                            <a href="0308-SpringBoot高级.html"><i class="el-icon-s-management"></i><span class="noteName">SpringBoot高级</span></a>
+                            <a href="0309-Shiro.html"><i class="el-icon-s-management"></i><span class="noteName">Shiro</span></a>
+                            <a><i class="el-icon-s-management"></i><span class="noteName">Spring注解驱动开发</span></a>
+                            <a href="0311-JPA.html"><i class="el-icon-s-management"></i><span class="noteName">JPA</span></a>
+                            <a href="0312-SpringData.html"><i class="el-icon-s-management"></i><span class="noteName">SpringData</span></a>
+                            <a href="0313-Git&GitHub.html"><i class="el-icon-s-management"></i><span class="noteName">Git&GitHub</span></a>
+                            <a href="0314-JVM上-内存与垃圾回收.html"><i class="el-icon-s-management"></i><span class="noteName">JVM上-内存与垃圾回收</span></a>
+                            <a href="0315-JVM中-字节码与类的加载.html"><i class="el-icon-s-management"></i><span class="noteName">JVM中-字节码与类的加载</span></a>
+                            <a href="0316-JVM下-性能监控与调优.html"><i class="el-icon-s-management"></i><span class="noteName">JVM下-性能监控与调优</span></a>
+                            <a href="0317-Nginx.html"><i class="el-icon-s-management"></i><span class="noteName">Nginx</span></a>
+                            <a href="0318-RabbitMQ.html"><i class="el-icon-s-management"></i><span class="noteName">RabbitMQ</span></a>
+                            <a href="0319-Redis6.html"><i class="el-icon-s-management"></i><span class="noteName">Redis6</span></a>
+                            <a href="0320-SpringCloud.html"><i class="el-icon-s-management"></i><span class="noteName">SpringCloud</span></a>
+                            <a href="0321-Docker基础.html"><i class="el-icon-s-management"></i><span class="noteName">Docker基础</span></a>
+                            <a href="0322-kubenetes.html"><i class="el-icon-s-management"></i><span class="noteName">kubenetes</span></a>
+                            <a href="0323-SpringSecurity.html"><i class="el-icon-s-management"></i><span class="noteName">SpringSecurity</span></a>
+                            <a href="0324-ElasticSearch.html"><i class="el-icon-s-management"></i><span class="noteName">ElasticSearch</span></a>
+                            <a href="0325-Kafka.html"><i class="el-icon-s-management"></i><span class="noteName">Kafka</span></a>
+                            <a href="0326-MySQL高级特性.html"><i class="el-icon-s-management"></i><span class="noteName">MySQL高级特性</span></a>
+                            <a href="0327-Sentinel核心源码解析.html"><i class="el-icon-s-management"></i><span class="noteName">Sentinel核心源码解析</span></a>
+                            <a href="0328-MyCat2.html"><i class="el-icon-s-management"></i><span class="noteName">MyCat2</span></a>
+                            <a href="0329-Gradle.html"><i class="el-icon-s-management"></i><span class="noteName">Gradle</span></a>
+                        </div>
+                    </span>
+                    <span class="noteClass" id="interviewSpan">
+                        <div id="interview">面试</div>
+                        <div class="noteContent">
+                            <a href="0401-面试.html"><i class="el-icon-s-claim"></i><span class="noteName">面试</span></a>
+                        </div>
+                    </span>
+                </div>
+                <div id="modal_foot"><span><img src="assert/human_control_only.png" style="opacity: 0.4"/></span></div>
+            </div>
+        </div>
+        <img id="noteEnv" src="assert/note_environment.png"/>
+        <img id="noteEnvLight" src="assert/note_environment_light.png"/>
+        <img id="maintain" src="assert/soco_maintain.png"/>
+        <img id="maintainLight" src="assert/soco_maintain_light.png"/>
+    </div>
+</body>
+<script>
+
+</script>
+</html>
