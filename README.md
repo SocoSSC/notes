@@ -1,5 +1,5 @@
 # notes
-## Soco's Java learning notes.
+## Soco's Java learning notes(part).
 
 You can clone this repository to local and then open /html/0000-Welcome.html
 
